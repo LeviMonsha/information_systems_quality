@@ -1,0 +1,5 @@
+C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/task1.dir
+C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/task2.dir
+C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/task3.dir
+C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/ALL_BUILD.dir
+C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/ZERO_CHECK.dir

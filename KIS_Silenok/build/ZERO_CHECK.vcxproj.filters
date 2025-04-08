@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\main\lang\c++\Tasks\KIS_Silenok\build\CMakeFiles\b8b71d1aba8283f69ee276fbaedaf229\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{71AF1AB3-47EE-375E-BEC9-4AB2FAE34456}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
