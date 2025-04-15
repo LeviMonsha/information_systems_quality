@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\main\lang\c++\Tasks\KIS_Silenok\src\task3\task3.cpp">
+    <ClCompile Include="C:\main\lang\c++\Tasks\information_systems_quality\KIS_Silenok\src\task3\task3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\main\lang\c++\Tasks\KIS_Silenok\CMakeLists.txt" />
+    <CustomBuild Include="C:\main\lang\c++\Tasks\information_systems_quality\KIS_Silenok\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{06ACB62D-22D1-394A-B27E-5DB73850F34F}</UniqueIdentifier>
+      <UniqueIdentifier>{D2F2ED3F-BF8D-3A0A-A490-BBAE10AFFCE3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

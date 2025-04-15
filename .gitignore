@@ -1,32 +1,51 @@
-# Prerequisites
-*.d
+# Каталоги сборки CMake
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
 
-# Compiled Object files
-*.slo
-*.lo
+# Артефакты компиляции
 *.o
 *.obj
-
-# Precompiled Headers
+*.lo
+*.slo
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Бинарные файлы и библиотеки
 *.exe
 *.out
 *.app
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+
+# Прочие временные файлы
+*.d
+*.mod
+*.smod
+
+# Каталоги для исполняемых файлов и библиотек (если используются)
+bin/
+lib/
+
+# Файлы и каталоги, создаваемые Ninja
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Каталоги и файлы IDE (например, CLion, Visual Studio)
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Логи и временные файлы
+*.log

@@ -18,7 +18,7 @@
 
 double mean(const std::vector<double> &data);
 std::vector<double> calculate_expected_frequencies(const std::vector<std::pair<double, double>> &intervals, double lambda, int N);
-double calculate_chi_squared(const std::vector<int> &observed_frequencies, const std::vector<double> &expected_frequencies);
+double calculate_chi_squared(const std::vector<int> &freq, const std::vector<double> &expected_freq);
 
 int main()
 {
@@ -41,40 +41,40 @@ int main()
     std::mt19937 gen(rd());
     std::uniform_real_distribution<> distrib(interval_start, interval_end);
 
-    std::vector<double> random_numbers(N);
+    std::vector<double> rand_nums(N);
     for (int i = 0; i < N; ++i)
-        random_numbers[i] = distrib(gen);
+        rand_nums[i] = distrib(gen);
 
-    std::vector<int> observed_frequencies(K, 0);
-    for (double num : random_numbers)
+    std::vector<int> freq(K, 0);
+    for (double num : rand_nums)
     {
         for (int j = 0; j < K; ++j)
         {
             if (num >= intervals[j].first && num < intervals[j].second)
             {
-                observed_frequencies[j]++;
+                freq[j]++;
                 break;
             }
             if (j == K - 1 && num >= intervals[j].first && num <= intervals[j].second)
             {
-                observed_frequencies[j]++;
+                freq[j]++;
                 break;
             }
         }
     }
 
-    double mean_value = mean(random_numbers);
+    double mean_value = mean(rand_nums);
     double lambda = 1.0 / mean_value;
 
-    std::vector<double> expected_frequencies = calculate_expected_frequencies(intervals, lambda, N);
+    std::vector<double> expected_freq = calculate_expected_frequencies(intervals, lambda, N);
 
-    double chi_squared = calculate_chi_squared(observed_frequencies, expected_frequencies);
+    double chi_squared = calculate_chi_squared(freq, expected_freq);
 
     int degrees_of_freedom = K - 2;
 
     double p_value = 1.0 - gsl_cdf_chisq_Q(chi_squared, degrees_of_freedom);
 
-    std::cout << "Chi-squared statistic = " << chi_squared << std::endl;
+    std::cout << "Chi-squared = " << chi_squared << std::endl;
     std::cout << "Degrees of freedom = " << degrees_of_freedom << std::endl;
     std::cout << "p-value = " << p_value << std::endl;
 
@@ -96,24 +96,24 @@ double mean(const std::vector<double> &data)
 
 std::vector<double> calculate_expected_frequencies(const std::vector<std::pair<double, double>> &intervals, double lambda, int N)
 {
-    std::vector<double> expected_frequencies(intervals.size(), 0.0);
+    std::vector<double> expected_freq(intervals.size(), 0.0);
     for (size_t i = 0; i < intervals.size(); ++i)
     {
         double left = intervals[i].first;
         double right = intervals[i].second;
         double prob = std::exp(-lambda * left) - std::exp(-lambda * right);
-        expected_frequencies[i] = prob * N;
+        expected_freq[i] = prob * N;
     }
-    return expected_frequencies;
+    return expected_freq;
 }
 
-double calculate_chi_squared(const std::vector<int> &observed_frequencies, const std::vector<double> &expected_frequencies)
+double calculate_chi_squared(const std::vector<int> &freq, const std::vector<double> &expected_freq)
 {
     double chi_squared = 0.0;
-    for (size_t i = 0; i < observed_frequencies.size(); ++i)
+    for (size_t i = 0; i < freq.size(); ++i)
     {
-        if (expected_frequencies[i] > 0)
-            chi_squared += std::pow(observed_frequencies[i] - expected_frequencies[i], 2) / expected_frequencies[i];
+        if (expected_freq[i] > 0)
+            chi_squared += std::pow(freq[i] - expected_freq[i], 2) / expected_freq[i];
     }
     return chi_squared;
 }

@@ -1,6 +1,6 @@
-^C:\MAIN\LANG\C++\TASKS\KIS_SILENOK\BUILD\CMAKEFILES\B8B71D1ABA8283F69EE276FBAEDAF229\GENERATE.STAMP.RULE
+^C:\MAIN\LANG\C++\TASKS\INFORMATION_SYSTEMS_QUALITY\KIS_SILENOK\BUILD\CMAKEFILES\10D6E42AAA94CFAB9B4CEF112DE2B0F1\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/main/lang/c++/Tasks/KIS_Silenok -BC:/main/lang/c++/Tasks/KIS_Silenok/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/main/lang/c++/Tasks/KIS_Silenok/build/KIS_Silenok.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok -BC:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/KIS_Silenok.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

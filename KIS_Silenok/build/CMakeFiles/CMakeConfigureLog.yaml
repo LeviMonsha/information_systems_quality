@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Windows - 10.0.22631 - AMD64
   -
@@ -14,7 +14,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler:  
@@ -23,17 +23,17 @@ events:
       
       The output was:
       0
-      Версия MSBuild 17.13.9+e0f243f1e для .NET Framework
-      Сборка начата 08.04.2025 14:26:26.
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.13.9+e0f243f1e ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 15.04.2025 21:56:44.
       
-      Проект "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      ╨Я╤А╨╛╨╡╨║╤В "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       PrepareForBuild:
-        Создание каталога "Debug\\".
-        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
-        Создание каталога "Debug\\CompilerIdC.tlog\\".
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdC.tlog\\".
       InitializeBuildStatus:
-        Создание "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        Обращение к "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
       VcpkgTripletSelection:
         Using triplet "x64-windows" from "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\"
         Using normalized configuration "Release"
@@ -42,27 +42,27 @@ events:
         CMakeCCompilerId.c
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdC\\CompilerIdC.exe
+        CompilerIdC.vcxproj -> C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdC\\CompilerIdC.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
-        "pwsh.exe" не является внутренней или внешней
-        командой, исполняемой программой или пакетным файлом.
-        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
-        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" ╨╜╨╡ ╤П╨▓╨╗╤П╨╡╤В╤Б╤П ╨▓╨╜╤Г╤В╤А╨╡╨╜╨╜╨╡╨╣ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤И╨╜╨╡╨╣
+        ╨║╨╛╨╝╨░╨╜╨┤╨╛╨╣, ╨╕╤Б╨┐╨╛╨╗╨╜╤П╨╡╨╝╨╛╨╣ ╨┐╤А╨╛╨│╤А╨░╨╝╨╝╨╛╨╣ ╨╕╨╗╨╕ ╨┐╨░╨║╨╡╤В╨╜╤Л╨╝ ╤Д╨░╨╣╨╗╨╛╨╝.
+        ╨Т╤Л╤Е╨╛╨┤ ╨╕╨╖ ╨║╨╛╨╝╨░╨╜╨┤╤Л "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" ╤Б ╨║╨╛╨┤╨╛╨╝ 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdC\\CompilerIdC.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
         CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
       FinalizeBuildStatus:
-        Файл "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" удаляется.
-        Обращение к "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Сборка проекта "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" завершена (целевые объекты по умолчанию).
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       
-      Сборка успешно завершена.
-          Предупреждений: 0
-          Ошибок: 0
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
       
-      Прошло времени 00:00:01.74
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:03.12
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -70,7 +70,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/3.31.0-rc2/CompilerIdC/CompilerIdC.exe
+        C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/3.31.0-rc2/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -78,7 +78,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler:  
@@ -87,17 +87,17 @@ events:
       
       The output was:
       0
-      Версия MSBuild 17.13.9+e0f243f1e для .NET Framework
-      Сборка начата 08.04.2025 14:26:29.
+      ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.13.9+e0f243f1e ╨┤╨╗╤П .NET Framework
+      ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 15.04.2025 21:56:47.
       
-      Проект "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" в узле 1 (целевые объекты по умолчанию).
+      ╨Я╤А╨╛╨╡╨║╤В "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       PrepareForBuild:
-        Создание каталога "Debug\\".
-        Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
-        Создание каталога "Debug\\CompilerIdCXX.tlog\\".
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\".
+        ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "Debug\\CompilerIdCXX.tlog\\".
       InitializeBuildStatus:
-        Создание "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-        Обращение к "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
       VcpkgTripletSelection:
         Using triplet "x64-windows" from "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\"
         Using normalized configuration "Release"
@@ -106,27 +106,27 @@ events:
         CMakeCXXCompilerId.cpp
       Link:
         C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\lib" /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
+        CompilerIdCXX.vcxproj -> C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe
       AppLocalFromInstalled:
-        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
-        "pwsh.exe" не является внутренней или внешней
-        командой, исполняемой программой или пакетным файлом.
-        Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" с кодом 9009.
-        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        "pwsh.exe" ╨╜╨╡ ╤П╨▓╨╗╤П╨╡╤В╤Б╤П ╨▓╨╜╤Г╤В╤А╨╡╨╜╨╜╨╡╨╣ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤И╨╜╨╡╨╣
+        ╨║╨╛╨╝╨░╨╜╨┤╨╛╨╣, ╨╕╤Б╨┐╨╛╨╗╨╜╤П╨╡╨╝╨╛╨╣ ╨┐╤А╨╛╨│╤А╨░╨╝╨╝╨╛╨╣ ╨╕╨╗╨╕ ╨┐╨░╨║╨╡╤В╨╜╤Л╨╝ ╤Д╨░╨╣╨╗╨╛╨╝.
+        ╨Т╤Л╤Е╨╛╨┤ ╨╕╨╖ ╨║╨╛╨╝╨░╨╜╨┤╤Л "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" ╤Б ╨║╨╛╨┤╨╛╨╝ 9009.
+        "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
         CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
       FinalizeBuildStatus:
-        Файл "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" удаляется.
-        Обращение к "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Сборка проекта "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" завершена (целевые объекты по умолчанию).
+        ╨д╨░╨╣╨╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+        ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\3.31.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
       
-      Сборка успешно завершена.
-          Предупреждений: 0
-          Ошибок: 0
+      ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+          ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+          ╨Ю╤И╨╕╨▒╨╛╨║: 0
       
-      Прошло времени 00:00:01.10
+      ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.71
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -134,19 +134,19 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/3.31.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
+        C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/3.31.0-rc2/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-toh8df"
-      binary: "C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-toh8df"
+      source: "C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-gvrfpt"
+      binary: "C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-gvrfpt"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -155,49 +155,49 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-toh8df'
+        Change Dir: 'C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-gvrfpt'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_473d4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        Версия MSBuild 17.13.9+e0f243f1e для .NET Framework
-        Сборка начата 08.04.2025 14:26:31.
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f3151.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.13.9+e0f243f1e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 15.04.2025 21:56:50.
         
-        Проект "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toh8df\\cmTC_473d4.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gvrfpt\\cmTC_f3151.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         PrepareForBuild:
-          Создание каталога "cmTC_473d4.dir\\Debug\\".
-          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
-          Создание каталога "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toh8df\\Debug\\".
-          Создание каталога "cmTC_473d4.dir\\Debug\\cmTC_473d4.tlog\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_f3151.dir\\Debug\\".
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gvrfpt\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_f3151.dir\\Debug\\cmTC_f3151.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_473d4.dir\\Debug\\cmTC_473d4.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-          Обращение к "cmTC_473d4.dir\\Debug\\cmTC_473d4.tlog\\unsuccessfulbuild".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_f3151.dir\\Debug\\cmTC_f3151.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_f3151.dir\\Debug\\cmTC_f3151.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_473d4.dir\\Debug\\\\" /Fd"cmTC_473d4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.43.34808 для x64
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /I"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_473d4.dir\\Debug\\\\" /Fd"cmTC_473d4.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3151.dir\\Debug\\\\" /Fd"cmTC_f3151.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.43.34808 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /I"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3151.dir\\Debug\\\\" /Fd"cmTC_f3151.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toh8df\\Debug\\cmTC_473d4.exe" /INCREMENTAL /ILK:"cmTC_473d4.dir\\Debug\\cmTC_473d4.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-toh8df/Debug/cmTC_473d4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-toh8df/Debug/cmTC_473d4.lib" /MACHINE:X64  /machine:x64 cmTC_473d4.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_473d4.vcxproj -> C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toh8df\\Debug\\cmTC_473d4.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gvrfpt\\Debug\\cmTC_f3151.exe" /INCREMENTAL /ILK:"cmTC_f3151.dir\\Debug\\cmTC_f3151.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-gvrfpt/Debug/cmTC_f3151.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-gvrfpt/Debug/cmTC_f3151.lib" /MACHINE:X64  /machine:x64 cmTC_f3151.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_f3151.vcxproj -> C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gvrfpt\\Debug\\cmTC_f3151.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toh8df\\Debug\\cmTC_473d4.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_473d4.dir\\Debug\\cmTC_473d4.tlog\\cmTC_473d4.write.1u.tlog" "cmTC_473d4.dir\\Debug\\vcpkg.applocal.log"
-          "pwsh.exe" не является внутренней или внешней
-          командой, исполняемой программой или пакетным файлом.
-          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toh8df\\Debug\\cmTC_473d4.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_473d4.dir\\Debug\\cmTC_473d4.tlog\\cmTC_473d4.write.1u.tlog" "cmTC_473d4.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toh8df\\Debug\\cmTC_473d4.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_473d4.dir\\Debug\\cmTC_473d4.tlog\\cmTC_473d4.write.1u.tlog" "cmTC_473d4.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gvrfpt\\Debug\\cmTC_f3151.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_f3151.dir\\Debug\\cmTC_f3151.tlog\\cmTC_f3151.write.1u.tlog" "cmTC_f3151.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" ╨╜╨╡ ╤П╨▓╨╗╤П╨╡╤В╤Б╤П ╨▓╨╜╤Г╤В╤А╨╡╨╜╨╜╨╡╨╣ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤И╨╜╨╡╨╣
+          ╨║╨╛╨╝╨░╨╜╨┤╨╛╨╣, ╨╕╤Б╨┐╨╛╨╗╨╜╤П╨╡╨╝╨╛╨╣ ╨┐╤А╨╛╨│╤А╨░╨╝╨╝╨╛╨╣ ╨╕╨╗╨╕ ╨┐╨░╨║╨╡╤В╨╜╤Л╨╝ ╤Д╨░╨╣╨╗╨╛╨╝.
+          ╨Т╤Л╤Е╨╛╨┤ ╨╕╨╖ ╨║╨╛╨╝╨░╨╜╨┤╤Л "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gvrfpt\\Debug\\cmTC_f3151.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_f3151.dir\\Debug\\cmTC_f3151.tlog\\cmTC_f3151.write.1u.tlog" "cmTC_f3151.dir\\Debug\\vcpkg.applocal.log"" ╤Б ╨║╨╛╨┤╨╛╨╝ 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gvrfpt\\Debug\\cmTC_f3151.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_f3151.dir\\Debug\\cmTC_f3151.tlog\\cmTC_f3151.write.1u.tlog" "cmTC_f3151.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Файл "cmTC_473d4.dir\\Debug\\cmTC_473d4.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_473d4.dir\\Debug\\cmTC_473d4.tlog\\cmTC_473d4.lastbuildstate".
-        Сборка проекта "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-toh8df\\cmTC_473d4.vcxproj" завершена (целевые объекты по умолчанию).
+          ╨д╨░╨╣╨╗ "cmTC_f3151.dir\\Debug\\cmTC_f3151.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_f3151.dir\\Debug\\cmTC_f3151.tlog\\cmTC_f3151.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gvrfpt\\cmTC_f3151.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         
-        Сборка успешно завершена.
-            Предупреждений: 0
-            Ошибок: 0
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
         
-        Прошло времени 00:00:01.00
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.67
         
       exitCode: 0
   -
@@ -205,7 +205,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -223,7 +223,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.43.34808.0
@@ -233,12 +233,12 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-dzuz9c"
-      binary: "C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-dzuz9c"
+      source: "C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-5jtn2x"
+      binary: "C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-5jtn2x"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -248,49 +248,49 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-dzuz9c'
+        Change Dir: 'C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-5jtn2x'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5f4ec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        Версия MSBuild 17.13.9+e0f243f1e для .NET Framework
-        Сборка начата 08.04.2025 14:26:33.
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b310b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.13.9+e0f243f1e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 15.04.2025 21:56:52.
         
-        Проект "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dzuz9c\\cmTC_5f4ec.vcxproj" в узле 1 (целевые объекты по умолчанию).
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtn2x\\cmTC_b310b.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         PrepareForBuild:
-          Создание каталога "cmTC_5f4ec.dir\\Debug\\".
-          Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
-          Создание каталога "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dzuz9c\\Debug\\".
-          Создание каталога "cmTC_5f4ec.dir\\Debug\\cmTC_5f4ec.tlog\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_b310b.dir\\Debug\\".
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtn2x\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_b310b.dir\\Debug\\cmTC_b310b.tlog\\".
         InitializeBuildStatus:
-          Создание "cmTC_5f4ec.dir\\Debug\\cmTC_5f4ec.tlog\\unsuccessfulbuild", так как было задано "AlwaysCreate".
-          Обращение к "cmTC_5f4ec.dir\\Debug\\cmTC_5f4ec.tlog\\unsuccessfulbuild".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_b310b.dir\\Debug\\cmTC_b310b.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_b310b.dir\\Debug\\cmTC_b310b.tlog\\unsuccessfulbuild".
         VcpkgTripletSelection:
           Using triplet "x64-windows" from "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\"
           Using normalized configuration "Debug"
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5f4ec.dir\\Debug\\\\" /Fd"cmTC_5f4ec.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
-          Оптимизирующий компилятор Microsoft (R) C/C++ версии 19.43.34808 для x64
-          (C) Корпорация Майкрософт (Microsoft Corporation).  Все права защищены.
-          cl /c /I"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5f4ec.dir\\Debug\\\\" /Fd"cmTC_5f4ec.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b310b.dir\\Debug\\\\" /Fd"cmTC_b310b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.43.34808 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /I"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b310b.dir\\Debug\\\\" /Fd"cmTC_b310b.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dzuz9c\\Debug\\cmTC_5f4ec.exe" /INCREMENTAL /ILK:"cmTC_5f4ec.dir\\Debug\\cmTC_5f4ec.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-dzuz9c/Debug/cmTC_5f4ec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/main/lang/c++/Tasks/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-dzuz9c/Debug/cmTC_5f4ec.lib" /MACHINE:X64  /machine:x64 cmTC_5f4ec.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_5f4ec.vcxproj -> C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dzuz9c\\Debug\\cmTC_5f4ec.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtn2x\\Debug\\cmTC_b310b.exe" /INCREMENTAL /ILK:"cmTC_b310b.dir\\Debug\\cmTC_b310b.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-5jtn2x/Debug/cmTC_b310b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-5jtn2x/Debug/cmTC_b310b.lib" /MACHINE:X64  /machine:x64 cmTC_b310b.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_b310b.vcxproj -> C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtn2x\\Debug\\cmTC_b310b.exe
         AppLocalFromInstalled:
-          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dzuz9c\\Debug\\cmTC_5f4ec.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_5f4ec.dir\\Debug\\cmTC_5f4ec.tlog\\cmTC_5f4ec.write.1u.tlog" "cmTC_5f4ec.dir\\Debug\\vcpkg.applocal.log"
-          "pwsh.exe" не является внутренней или внешней
-          командой, исполняемой программой или пакетным файлом.
-          Выход из команды "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dzuz9c\\Debug\\cmTC_5f4ec.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_5f4ec.dir\\Debug\\cmTC_5f4ec.tlog\\cmTC_5f4ec.write.1u.tlog" "cmTC_5f4ec.dir\\Debug\\vcpkg.applocal.log"" с кодом 9009.
-          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dzuz9c\\Debug\\cmTC_5f4ec.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_5f4ec.dir\\Debug\\cmTC_5f4ec.tlog\\cmTC_5f4ec.write.1u.tlog" "cmTC_5f4ec.dir\\Debug\\vcpkg.applocal.log"
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtn2x\\Debug\\cmTC_b310b.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b310b.dir\\Debug\\cmTC_b310b.tlog\\cmTC_b310b.write.1u.tlog" "cmTC_b310b.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" ╨╜╨╡ ╤П╨▓╨╗╤П╨╡╤В╤Б╤П ╨▓╨╜╤Г╤В╤А╨╡╨╜╨╜╨╡╨╣ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤И╨╜╨╡╨╣
+          ╨║╨╛╨╝╨░╨╜╨┤╨╛╨╣, ╨╕╤Б╨┐╨╛╨╗╨╜╤П╨╡╨╝╨╛╨╣ ╨┐╤А╨╛╨│╤А╨░╨╝╨╝╨╛╨╣ ╨╕╨╗╨╕ ╨┐╨░╨║╨╡╤В╨╜╤Л╨╝ ╤Д╨░╨╣╨╗╨╛╨╝.
+          ╨Т╤Л╤Е╨╛╨┤ ╨╕╨╖ ╨║╨╛╨╝╨░╨╜╨┤╤Л "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtn2x\\Debug\\cmTC_b310b.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b310b.dir\\Debug\\cmTC_b310b.tlog\\cmTC_b310b.write.1u.tlog" "cmTC_b310b.dir\\Debug\\vcpkg.applocal.log"" ╤Б ╨║╨╛╨┤╨╛╨╝ 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtn2x\\Debug\\cmTC_b310b.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b310b.dir\\Debug\\cmTC_b310b.tlog\\cmTC_b310b.write.1u.tlog" "cmTC_b310b.dir\\Debug\\vcpkg.applocal.log"
         FinalizeBuildStatus:
-          Файл "cmTC_5f4ec.dir\\Debug\\cmTC_5f4ec.tlog\\unsuccessfulbuild" удаляется.
-          Обращение к "cmTC_5f4ec.dir\\Debug\\cmTC_5f4ec.tlog\\cmTC_5f4ec.lastbuildstate".
-        Сборка проекта "C:\\main\\lang\\c++\\Tasks\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dzuz9c\\cmTC_5f4ec.vcxproj" завершена (целевые объекты по умолчанию).
+          ╨д╨░╨╣╨╗ "cmTC_b310b.dir\\Debug\\cmTC_b310b.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_b310b.dir\\Debug\\cmTC_b310b.tlog\\cmTC_b310b.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5jtn2x\\cmTC_b310b.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
         
-        Сборка успешно завершена.
-            Предупреждений: 0
-            Ошибок: 0
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
         
-        Прошло времени 00:00:00.99
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.75
         
       exitCode: 0
   -
@@ -298,7 +298,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -316,9 +316,269 @@ events:
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.43.34808.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:262 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:48 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-k7enpb"
+      binary: "C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-k7enpb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_OSX_ARCHITECTURES: "x86_64"
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-k7enpb'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a4a07.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.13.9+e0f243f1e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 15.04.2025 22:00:30.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7enpb\\cmTC_a4a07.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_a4a07.dir\\Debug\\".
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7enpb\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_a4a07.dir\\Debug\\cmTC_a4a07.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_a4a07.dir\\Debug\\cmTC_a4a07.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_a4a07.dir\\Debug\\cmTC_a4a07.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4a07.dir\\Debug\\\\" /Fd"cmTC_a4a07.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7enpb\\CheckIncludeFile.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.43.34808 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /I"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4a07.dir\\Debug\\\\" /Fd"cmTC_a4a07.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7enpb\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7enpb\\Debug\\cmTC_a4a07.exe" /INCREMENTAL /ILK:"cmTC_a4a07.dir\\Debug\\cmTC_a4a07.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-k7enpb/Debug/cmTC_a4a07.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-k7enpb/Debug/cmTC_a4a07.lib" /MACHINE:X64  /machine:x64 cmTC_a4a07.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a4a07.vcxproj -> C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7enpb\\Debug\\cmTC_a4a07.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7enpb\\Debug\\cmTC_a4a07.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a4a07.dir\\Debug\\cmTC_a4a07.tlog\\cmTC_a4a07.write.1u.tlog" "cmTC_a4a07.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" ╨╜╨╡ ╤П╨▓╨╗╤П╨╡╤В╤Б╤П ╨▓╨╜╤Г╤В╤А╨╡╨╜╨╜╨╡╨╣ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤И╨╜╨╡╨╣
+          ╨║╨╛╨╝╨░╨╜╨┤╨╛╨╣, ╨╕╤Б╨┐╨╛╨╗╨╜╤П╨╡╨╝╨╛╨╣ ╨┐╤А╨╛╨│╤А╨░╨╝╨╝╨╛╨╣ ╨╕╨╗╨╕ ╨┐╨░╨║╨╡╤В╨╜╤Л╨╝ ╤Д╨░╨╣╨╗╨╛╨╝.
+          ╨Т╤Л╤Е╨╛╨┤ ╨╕╨╖ ╨║╨╛╨╝╨░╨╜╨┤╤Л "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7enpb\\Debug\\cmTC_a4a07.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a4a07.dir\\Debug\\cmTC_a4a07.tlog\\cmTC_a4a07.write.1u.tlog" "cmTC_a4a07.dir\\Debug\\vcpkg.applocal.log"" ╤Б ╨║╨╛╨┤╨╛╨╝ 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7enpb\\Debug\\cmTC_a4a07.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a4a07.dir\\Debug\\cmTC_a4a07.tlog\\cmTC_a4a07.write.1u.tlog" "cmTC_a4a07.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_a4a07.dir\\Debug\\cmTC_a4a07.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_a4a07.dir\\Debug\\cmTC_a4a07.tlog\\cmTC_a4a07.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k7enpb\\cmTC_a4a07.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:02.01
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:263 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:48 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-3k7n2k"
+      binary: "C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-3k7n2k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_OSX_ARCHITECTURES: "x86_64"
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-3k7n2k'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b5149.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.13.9+e0f243f1e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 15.04.2025 22:00:32.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7n2k\\cmTC_b5149.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_b5149.dir\\Debug\\".
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7n2k\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_b5149.dir\\Debug\\cmTC_b5149.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_b5149.dir\\Debug\\cmTC_b5149.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_b5149.dir\\Debug\\cmTC_b5149.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5149.dir\\Debug\\\\" /Fd"cmTC_b5149.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7n2k\\CheckIncludeFile.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.43.34808 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /I"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5149.dir\\Debug\\\\" /Fd"cmTC_b5149.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7n2k\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7n2k\\Debug\\cmTC_b5149.exe" /INCREMENTAL /ILK:"cmTC_b5149.dir\\Debug\\cmTC_b5149.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-3k7n2k/Debug/cmTC_b5149.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-3k7n2k/Debug/cmTC_b5149.lib" /MACHINE:X64  /machine:x64 cmTC_b5149.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_b5149.vcxproj -> C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7n2k\\Debug\\cmTC_b5149.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7n2k\\Debug\\cmTC_b5149.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b5149.dir\\Debug\\cmTC_b5149.tlog\\cmTC_b5149.write.1u.tlog" "cmTC_b5149.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" ╨╜╨╡ ╤П╨▓╨╗╤П╨╡╤В╤Б╤П ╨▓╨╜╤Г╤В╤А╨╡╨╜╨╜╨╡╨╣ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤И╨╜╨╡╨╣
+          ╨║╨╛╨╝╨░╨╜╨┤╨╛╨╣, ╨╕╤Б╨┐╨╛╨╗╨╜╤П╨╡╨╝╨╛╨╣ ╨┐╤А╨╛╨│╤А╨░╨╝╨╝╨╛╨╣ ╨╕╨╗╨╕ ╨┐╨░╨║╨╡╤В╨╜╤Л╨╝ ╤Д╨░╨╣╨╗╨╛╨╝.
+          ╨Т╤Л╤Е╨╛╨┤ ╨╕╨╖ ╨║╨╛╨╝╨░╨╜╨┤╤Л "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7n2k\\Debug\\cmTC_b5149.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b5149.dir\\Debug\\cmTC_b5149.tlog\\cmTC_b5149.write.1u.tlog" "cmTC_b5149.dir\\Debug\\vcpkg.applocal.log"" ╤Б ╨║╨╛╨┤╨╛╨╝ 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7n2k\\Debug\\cmTC_b5149.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_b5149.dir\\Debug\\cmTC_b5149.tlog\\cmTC_b5149.write.1u.tlog" "cmTC_b5149.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_b5149.dir\\Debug\\cmTC_b5149.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_b5149.dir\\Debug\\cmTC_b5149.tlog\\cmTC_b5149.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3k7n2k\\cmTC_b5149.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:02.07
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:264 (check_include_file)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:48 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-h3p0x5"
+      binary: "C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-h3p0x5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_OSX_ARCHITECTURES: "x86_64"
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-h3p0x5'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4f73e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.13.9+e0f243f1e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 15.04.2025 22:00:34.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3p0x5\\cmTC_4f73e.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_4f73e.dir\\Debug\\".
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3p0x5\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_4f73e.dir\\Debug\\cmTC_4f73e.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_4f73e.dir\\Debug\\cmTC_4f73e.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_4f73e.dir\\Debug\\cmTC_4f73e.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4f73e.dir\\Debug\\\\" /Fd"cmTC_4f73e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3p0x5\\CheckIncludeFile.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.43.34808 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /I"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4f73e.dir\\Debug\\\\" /Fd"cmTC_4f73e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3p0x5\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3p0x5\\Debug\\cmTC_4f73e.exe" /INCREMENTAL /ILK:"cmTC_4f73e.dir\\Debug\\cmTC_4f73e.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-h3p0x5/Debug/cmTC_4f73e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-h3p0x5/Debug/cmTC_4f73e.lib" /MACHINE:X64  /machine:x64 cmTC_4f73e.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_4f73e.vcxproj -> C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3p0x5\\Debug\\cmTC_4f73e.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3p0x5\\Debug\\cmTC_4f73e.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_4f73e.dir\\Debug\\cmTC_4f73e.tlog\\cmTC_4f73e.write.1u.tlog" "cmTC_4f73e.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" ╨╜╨╡ ╤П╨▓╨╗╤П╨╡╤В╤Б╤П ╨▓╨╜╤Г╤В╤А╨╡╨╜╨╜╨╡╨╣ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤И╨╜╨╡╨╣
+          ╨║╨╛╨╝╨░╨╜╨┤╨╛╨╣, ╨╕╤Б╨┐╨╛╨╗╨╜╤П╨╡╨╝╨╛╨╣ ╨┐╤А╨╛╨│╤А╨░╨╝╨╝╨╛╨╣ ╨╕╨╗╨╕ ╨┐╨░╨║╨╡╤В╨╜╤Л╨╝ ╤Д╨░╨╣╨╗╨╛╨╝.
+          ╨Т╤Л╤Е╨╛╨┤ ╨╕╨╖ ╨║╨╛╨╝╨░╨╜╨┤╤Л "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3p0x5\\Debug\\cmTC_4f73e.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_4f73e.dir\\Debug\\cmTC_4f73e.tlog\\cmTC_4f73e.write.1u.tlog" "cmTC_4f73e.dir\\Debug\\vcpkg.applocal.log"" ╤Б ╨║╨╛╨┤╨╛╨╝ 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3p0x5\\Debug\\cmTC_4f73e.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_4f73e.dir\\Debug\\cmTC_4f73e.tlog\\cmTC_4f73e.write.1u.tlog" "cmTC_4f73e.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_4f73e.dir\\Debug\\cmTC_4f73e.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_4f73e.dir\\Debug\\cmTC_4f73e.tlog\\cmTC_4f73e.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h3p0x5\\cmTC_4f73e.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.97
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "build/_deps/sfml-src/cmake/Config.cmake:10 (check_type_size)"
+      - "build/_deps/sfml-src/CMakeLists.txt:48 (include)"
+    checks:
+      - "Check size of void*"
+    directories:
+      source: "C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-h9r4pt"
+      binary: "C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-h9r4pt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_OSX_ARCHITECTURES: "x86_64"
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "HAVE_SIZEOF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-h9r4pt'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9258f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ╨Т╨╡╤А╤Б╨╕╤П MSBuild 17.13.9+e0f243f1e ╨┤╨╗╤П .NET Framework
+        ╨б╨▒╨╛╤А╨║╨░ ╨╜╨░╤З╨░╤В╨░ 15.04.2025 22:00:37.
+        
+        ╨Я╤А╨╛╨╡╨║╤В "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9r4pt\\cmTC_9258f.vcxproj" ╨▓ ╤Г╨╖╨╗╨╡ 1 (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        PrepareForBuild:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_9258f.dir\\Debug\\".
+          ╨б╤В╤А╤Г╨║╤В╤Г╤А╨╕╤А╨╛╨▓╨░╨╜╨╜╤Л╨╣ ╨▓╤Л╨▓╨╛╨┤ ╨▓╨║╨╗╤О╤З╨╡╨╜. ╨д╨╛╤А╨╝╨░╤В╨╕╤А╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤Б╤В╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А╨░ ╨▒╤Г╨┤╨╡╤В ╨╛╤В╤А╨░╨╢╨░╤В╤М ╨╕╨╡╤А╨░╤А╤Е╨╕╤О ╨╛╤И╨╕╨▒╨╛╨║. ╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡ ╤Б╨╝. https://aka.ms/cpp/structured-output.
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9r4pt\\Debug\\".
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤В╨░╨╗╨╛╨│╨░ "cmTC_9258f.dir\\Debug\\cmTC_9258f.tlog\\".
+        InitializeBuildStatus:
+          ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_9258f.dir\\Debug\\cmTC_9258f.tlog\\unsuccessfulbuild", ╤В╨░╨║ ╨║╨░╨║ ╨▒╤Л╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_9258f.dir\\Debug\\cmTC_9258f.tlog\\unsuccessfulbuild".
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\"
+          Using normalized configuration "Debug"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9258f.dir\\Debug\\\\" /Fd"cmTC_9258f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9r4pt\\SIZEOF_VOID_PTR.c"
+          ╨Ю╨┐╤В╨╕╨╝╨╕╨╖╨╕╤А╤Г╤О╤Й╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤П╤В╨╛╤А Microsoft (R) C/C++ ╨▓╨╡╤А╤Б╨╕╨╕ 19.43.34808 ╨┤╨╗╤П x64
+          (C) ╨Ъ╨╛╤А╨┐╨╛╤А╨░╤Ж╨╕╤П ╨Ь╨░╨╣╨║╤А╨╛╤Б╨╛╤Д╤В (Microsoft Corporation).  ╨Т╤Б╨╡ ╨┐╤А╨░╨▓╨░ ╨╖╨░╤Й╨╕╤Й╨╡╨╜╤Л.
+          cl /c /I"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9258f.dir\\Debug\\\\" /Fd"cmTC_9258f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9r4pt\\SIZEOF_VOID_PTR.c"
+          SIZEOF_VOID_PTR.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9r4pt\\Debug\\cmTC_9258f.exe" /INCREMENTAL /ILK:"cmTC_9258f.dir\\Debug\\cmTC_9258f.ilk" /NOLOGO /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-h9r4pt/Debug/cmTC_9258f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/CMakeScratch/TryCompile-h9r4pt/Debug/cmTC_9258f.lib" /MACHINE:X64  /machine:x64 cmTC_9258f.dir\\Debug\\SIZEOF_VOID_PTR.obj
+          cmTC_9258f.vcxproj -> C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9r4pt\\Debug\\cmTC_9258f.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9r4pt\\Debug\\cmTC_9258f.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_9258f.dir\\Debug\\cmTC_9258f.tlog\\cmTC_9258f.write.1u.tlog" "cmTC_9258f.dir\\Debug\\vcpkg.applocal.log"
+          "pwsh.exe" ╨╜╨╡ ╤П╨▓╨╗╤П╨╡╤В╤Б╤П ╨▓╨╜╤Г╤В╤А╨╡╨╜╨╜╨╡╨╣ ╨╕╨╗╨╕ ╨▓╨╜╨╡╤И╨╜╨╡╨╣
+          ╨║╨╛╨╝╨░╨╜╨┤╨╛╨╣, ╨╕╤Б╨┐╨╛╨╗╨╜╤П╨╡╨╝╨╛╨╣ ╨┐╤А╨╛╨│╤А╨░╨╝╨╝╨╛╨╣ ╨╕╨╗╨╕ ╨┐╨░╨║╨╡╤В╨╜╤Л╨╝ ╤Д╨░╨╣╨╗╨╛╨╝.
+          ╨Т╤Л╤Е╨╛╨┤ ╨╕╨╖ ╨║╨╛╨╝╨░╨╜╨┤╤Л "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9r4pt\\Debug\\cmTC_9258f.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_9258f.dir\\Debug\\cmTC_9258f.tlog\\cmTC_9258f.write.1u.tlog" "cmTC_9258f.dir\\Debug\\vcpkg.applocal.log"" ╤Б ╨║╨╛╨┤╨╛╨╝ 9009.
+          "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\Users\\Tumbi\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9r4pt\\Debug\\cmTC_9258f.exe" "C:\\Users\\Tumbi\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_9258f.dir\\Debug\\cmTC_9258f.tlog\\cmTC_9258f.write.1u.tlog" "cmTC_9258f.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          ╨д╨░╨╣╨╗ "cmTC_9258f.dir\\Debug\\cmTC_9258f.tlog\\unsuccessfulbuild" ╤Г╨┤╨░╨╗╤П╨╡╤В╤Б╤П.
+          ╨Ю╨▒╤А╨░╤Й╨╡╨╜╨╕╨╡ ╨║ "cmTC_9258f.dir\\Debug\\cmTC_9258f.tlog\\cmTC_9258f.lastbuildstate".
+        ╨б╨▒╨╛╤А╨║╨░ ╨┐╤А╨╛╨╡╨║╤В╨░ "C:\\main\\lang\\c++\\Tasks\\information_systems_quality\\KIS_Silenok\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9r4pt\\cmTC_9258f.vcxproj" ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░ (╤Ж╨╡╨╗╨╡╨▓╤Л╨╡ ╨╛╨▒╤К╨╡╨║╤В╤Л ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О).
+        
+        ╨б╨▒╨╛╤А╨║╨░ ╤Г╤Б╨┐╨╡╤И╨╜╨╛ ╨╖╨░╨▓╨╡╤А╤И╨╡╨╜╨░.
+            ╨Я╤А╨╡╨┤╤Г╨┐╤А╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
+            ╨Ю╤И╨╕╨▒╨╛╨║: 0
+        
+        ╨Я╤А╨╛╤И╨╗╨╛ ╨▓╤А╨╡╨╝╨╡╨╜╨╕ 00:00:01.89
+        
+      exitCode: 0
 ...
