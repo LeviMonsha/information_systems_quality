@@ -1,6 +1,6 @@
-^C:\MAIN\LANG\C++\TASKS\INFORMATION_SYSTEMS_QUALITY\KIS_SILENOK\CMAKELISTS.TXT
+^C:\USERS\KUROSAWA\INCHIMONSHA\C++\INFORMATION_SYSTEMS_QUALITY\KIS_SILENOK\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok -BC:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build --check-stamp-file C:/main/lang/c++/Tasks/information_systems_quality/KIS_Silenok/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Kurosawa/inchimonsha/c++/information_systems_quality/KIS_Silenok -BC:/Users/Kurosawa/inchimonsha/c++/information_systems_quality/KIS_Silenok/build --check-stamp-file C:/Users/Kurosawa/inchimonsha/c++/information_systems_quality/KIS_Silenok/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

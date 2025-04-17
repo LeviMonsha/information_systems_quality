@@ -4,7 +4,7 @@
 #include <cmath>
 #include <numeric>
 #include <algorithm>
-#include <gsl/gsl_cdf.h>
+#include <boost/math/distributions/chi_squared.hpp>
 
 /*
 Лабораторная работа 1.
@@ -22,28 +22,27 @@ double calculate_chi_squared(const std::vector<int> &freq, const std::vector<dou
 
 int main()
 {
-    int N = 100;
-    double interval_start = 0.0;
-    double interval_end = 100.0;
-    int K = 10;
-    double ALPHA = 0.01;
-
-    std::vector<std::pair<double, double>> intervals(K);
-    double interval_width = (interval_end - interval_start) / K;
-    for (int i = 0; i < K; ++i)
-    {
-        double left = interval_start + i * interval_width;
-        double right = left + interval_width;
-        intervals[i] = std::make_pair(left, right);
-    }
+    const int N = 100;
+    const int K = 10;
+    const double LAMBDA = 0.1;
+    const double ALPHA = 0.01;
 
     std::random_device rd;
     std::mt19937 gen(rd());
-    std::uniform_real_distribution<> distrib(interval_start, interval_end);
+    std::exponential_distribution<> distrib(ALPHA);
 
     std::vector<double> rand_nums(N);
     for (int i = 0; i < N; ++i)
         rand_nums[i] = distrib(gen);
+
+
+    double max_value = *std::max_element(rand_nums.begin(), rand_nums.end());
+    std::vector<std::pair<double, double>> intervals(K);
+    double interval_width = max_value / K;
+    for (int i = 0; i < K; ++i) {
+        intervals[i] = {i * interval_width, (i + 1) * interval_width};
+    }
+    intervals.back().second = std::numeric_limits<double>::infinity();
 
     std::vector<int> freq(K, 0);
     for (double num : rand_nums)
@@ -72,7 +71,9 @@ int main()
 
     int degrees_of_freedom = K - 2;
 
-    double p_value = 1.0 - gsl_cdf_chisq_Q(chi_squared, degrees_of_freedom);
+    boost::math::chi_squared dist(degrees_of_freedom);
+
+    double p_value = boost::math::cdf(boost::math::complement(dist, chi_squared));
 
     std::cout << "Chi-squared = " << chi_squared << std::endl;
     std::cout << "Degrees of freedom = " << degrees_of_freedom << std::endl;
@@ -96,12 +97,11 @@ double mean(const std::vector<double> &data)
 
 std::vector<double> calculate_expected_frequencies(const std::vector<std::pair<double, double>> &intervals, double lambda, int N)
 {
-    std::vector<double> expected_freq(intervals.size(), 0.0);
-    for (size_t i = 0; i < intervals.size(); ++i)
-    {
+    std::vector<double> expected_freq(intervals.size());
+    for (size_t i = 0; i < intervals.size(); ++i) {
         double left = intervals[i].first;
         double right = intervals[i].second;
-        double prob = std::exp(-lambda * left) - std::exp(-lambda * right);
+        double prob = std::exp(-lambda * left) - (right == std::numeric_limits<double>::infinity() ? 0 : std::exp(-lambda * right));
         expected_freq[i] = prob * N;
     }
     return expected_freq;
