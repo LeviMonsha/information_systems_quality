@@ -35,11 +35,11 @@ int main()
     for (int i = 0; i < N; ++i)
         rand_nums[i] = distrib(gen);
 
-
     double max_value = *std::max_element(rand_nums.begin(), rand_nums.end());
     std::vector<std::pair<double, double>> intervals(K);
     double interval_width = max_value / K;
-    for (int i = 0; i < K; ++i) {
+    for (int i = 0; i < K; ++i)
+    {
         intervals[i] = {i * interval_width, (i + 1) * interval_width};
     }
     intervals.back().second = std::numeric_limits<double>::infinity();
@@ -98,7 +98,8 @@ double mean(const std::vector<double> &data)
 std::vector<double> calculate_expected_frequencies(const std::vector<std::pair<double, double>> &intervals, double lambda, int N)
 {
     std::vector<double> expected_freq(intervals.size());
-    for (size_t i = 0; i < intervals.size(); ++i) {
+    for (size_t i = 0; i < intervals.size(); ++i)
+    {
         double left = intervals[i].first;
         double right = intervals[i].second;
         double prob = std::exp(-lambda * left) - (right == std::numeric_limits<double>::infinity() ? 0 : std::exp(-lambda * right));
